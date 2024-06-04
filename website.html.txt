@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">MyWebsite</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+    </header>
+
+    <aside class="sidebar">
+        <div class="user-profile">
+            <img src="user.jpg" alt="User Profile">
+            <h3>John Doe</h3>
+        </div>
+        <nav class="side-nav">
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#settings">Settings</a></li>
+                <li><a href="#activity">Activity</a></li>
+            </ul>
+        </nav>
+        <div class="recent-activities">
+            <h4>Recent Activities</h4>
+            <ul>
+                <li>Logged in</li>
+                <li>Updated Profile</li>
+                <li>Posted a Comment</li>
+            </ul>
+        </div>
+    </aside>
+
+    <main>
+        <section class="hero">
+            <div class="carousel">
+                <div class="carousel-item active">Slide 1</div>
+                <div class="carousel-item">Slide 2</div>
+                <div class="carousel-item">Slide 3</div>
+            </div>
+        </section>
+
+        <section class="featured-articles">
+            <h2>Featured Articles</h2>
+            <article>
+                <h3>Article Title</h3>
+                <p>Article summary...</p>
+            </article>
+            <article>
+                <h3>Article Title</h3>
+                <p>Article summary...</p>
+            </article>
+        </section>
+
+        <section class="latest-news">
+            <h2>Latest News</h2>
+            <div class="news-item">News 1</div>
+            <div class="news-item">News 2</div>
+            <div class="news-item">News 3</div>
+        </section>
+
+        <section class="interactive-map">
+            <h2>Interactive Map</h2>
+            <div id="map"></div>
+        </section>
+
+        <section class="video-gallery">
+            <h2>Video Gallery</h2>
+            <div class="video-item">Video 1</div>
+            <div class="video-item">Video 2</div>
+            <div class="video-item">Video 3</div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <h4>Contact Us</h4>
+            <p>Email: info@mywebsite.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+        <div class="social-media">
+            <h4>Follow Us</h4>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <div class="newsletter">
+            <h4>Subscribe to our Newsletter</h4>
+            <input type="email" placeholder="Your email">
+            <button>Subscribe</button>
+        </div>
+    </footer>
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <p>Modal content...</p>
+        </div>
+    </div>
+
+    <button class="dark-mode-toggle">Toggle Dark Mode</button>
+</body>
+</html>
